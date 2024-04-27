@@ -18,8 +18,11 @@ struct ChangePost: View {
                     .frame(width: 50, height: 50)
                     .cornerRadius(25)
                 VStack(alignment: .leading) {
-                    Text("Omadbek Kosimov")
-                        .fontWeight(.bold)
+                    HStack {
+                        Text("Omadbek Kosimov")
+                            .fontWeight(.bold)
+                        Text("updated his profile")
+                    }
                     Text("picture")
                     HStack {
                         Text("1d")
@@ -27,13 +30,12 @@ struct ChangePost: View {
                         Image(systemName: "globe.central.south.asia.fill")
                     }
                 }
+                .frame(height: 60)
                 
-                HStack(alignment: .center) {
-                    Text("updated his profile")
+                HStack(alignment: .top) {
                     Image(systemName: "ellipsis")
                 }
             }
-            .frame(height: 40)
             
             VStack {
                 Image("iphone")
@@ -42,7 +44,8 @@ struct ChangePost: View {
                     .cornerRadius(170)
                     .overlay(RoundedRectangle(cornerRadius: 300).stroke(.gray, lineWidth: 2))
             }
-            .padding(.top, 40)
+            .padding(.top, 30)
+            .padding(.bottom, 20)
             HStack {
                 HStack {
                     Image(systemName: "hand.thumbsup.fill")

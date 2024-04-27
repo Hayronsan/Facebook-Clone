@@ -97,6 +97,7 @@ struct ContentView: View {
                 // post items
                 VStack {
                     HStack {}.frame(height: 10).frame(maxWidth: .infinity).background(.gray.opacity(0.3))
+                    NewPost()
                     ChangePost()
                     PostItem(img_url: "image1")
                     PostItem(img_url: "image2")
