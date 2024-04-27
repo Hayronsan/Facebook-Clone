@@ -11,6 +11,12 @@
 		D544E7D72BDA82B700A29616 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D544E7D62BDA82B700A29616 /* ContentView.swift */; };
 		D544E7D92BDA82B800A29616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D544E7D82BDA82B800A29616 /* Assets.xcassets */; };
 		D544E7DC2BDA82B800A29616 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D544E7DB2BDA82B800A29616 /* Preview Assets.xcassets */; };
+		D544E7E42BDA97BA00A29616 /* RoomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D544E7E32BDA97BA00A29616 /* RoomItem.swift */; };
+		D544E7E62BDA99F300A29616 /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D544E7E52BDA99F300A29616 /* StoryItem.swift */; };
+		D544E7E82BDA9DA900A29616 /* PostItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D544E7E72BDA9DA900A29616 /* PostItem.swift */; };
+		D544E7EA2BDB718B00A29616 /* CreatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D544E7E92BDB718B00A29616 /* CreatRoom.swift */; };
+		D544E7EC2BDB753300A29616 /* CreatStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D544E7EB2BDB753300A29616 /* CreatStory.swift */; };
+		D544E7EE2BDB884D00A29616 /* ChangePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = D544E7ED2BDB884D00A29616 /* ChangePost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		D544E7D62BDA82B700A29616 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D544E7D82BDA82B800A29616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D544E7DB2BDA82B800A29616 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D544E7E32BDA97BA00A29616 /* RoomItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomItem.swift; sourceTree = "<group>"; };
+		D544E7E52BDA99F300A29616 /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		D544E7E72BDA9DA900A29616 /* PostItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostItem.swift; sourceTree = "<group>"; };
+		D544E7E92BDB718B00A29616 /* CreatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatRoom.swift; sourceTree = "<group>"; };
+		D544E7EB2BDB753300A29616 /* CreatStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatStory.swift; sourceTree = "<group>"; };
+		D544E7ED2BDB884D00A29616 /* ChangePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +63,7 @@
 		D544E7D32BDA82B700A29616 /* Facebook Clone */ = {
 			isa = PBXGroup;
 			children = (
+				D544E7E22BDA97A500A29616 /* Cells */,
 				D544E7D42BDA82B700A29616 /* Facebook_CloneApp.swift */,
 				D544E7D62BDA82B700A29616 /* ContentView.swift */,
 				D544E7D82BDA82B800A29616 /* Assets.xcassets */,
@@ -65,6 +78,19 @@
 				D544E7DB2BDA82B800A29616 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D544E7E22BDA97A500A29616 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D544E7E32BDA97BA00A29616 /* RoomItem.swift */,
+				D544E7E52BDA99F300A29616 /* StoryItem.swift */,
+				D544E7E72BDA9DA900A29616 /* PostItem.swift */,
+				D544E7E92BDB718B00A29616 /* CreatRoom.swift */,
+				D544E7EB2BDB753300A29616 /* CreatStory.swift */,
+				D544E7ED2BDB884D00A29616 /* ChangePost.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D544E7D72BDA82B700A29616 /* ContentView.swift in Sources */,
+				D544E7EC2BDB753300A29616 /* CreatStory.swift in Sources */,
 				D544E7D52BDA82B700A29616 /* Facebook_CloneApp.swift in Sources */,
+				D544E7EA2BDB718B00A29616 /* CreatRoom.swift in Sources */,
+				D544E7E82BDA9DA900A29616 /* PostItem.swift in Sources */,
+				D544E7E62BDA99F300A29616 /* StoryItem.swift in Sources */,
+				D544E7E42BDA97BA00A29616 /* RoomItem.swift in Sources */,
+				D544E7EE2BDB884D00A29616 /* ChangePost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

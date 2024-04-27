@@ -8,8 +8,27 @@
 import SwiftUI
 
 struct RoomItem: View {
+    var isOnline = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack(alignment: .bottomTrailing) {
+            Image("person")
+                .resizable()
+                .frame(width: 60, height: 60)
+                .cornerRadius(30)
+            
+            if isOnline {
+                ZStack {
+                    Circle()
+                        .frame(width: 24, height: 24)
+                        .foregroundColor(.white)
+                    Circle()
+                        .frame(width: 18, height: 18)
+                        .foregroundColor(.green)
+                }
+            }
+        }
     }
 }
 
